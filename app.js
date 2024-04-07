@@ -1,8 +1,9 @@
-"use strict"; // require edilen yerde require varsa kullanılır
+// "use strict";
 const express = require("express");
 const dbConnection = require("./helper/mysql");
-
+require('dotenv').config();
 const app = express();
+app.use(express.json()); // Parse JSON bodies
 
 app.get("/students", (req, res) => {
   dbConnection.query("SELECT * FROM students", (err, results, fields) => {
