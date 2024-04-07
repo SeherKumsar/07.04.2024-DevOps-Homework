@@ -1,0 +1,4 @@
+node_modules/
+
+# configurations
+password.js
