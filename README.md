@@ -50,6 +50,10 @@
 
 `cd 07.04.2024-DevOps-Homework`
 
+`nano .env` ile yeni bir .env dosyası oluşturun.
+
+`AWS_RDD_PASSWORD = `
+
 `npm install`
 
 `npm start`
